@@ -1,0 +1,7 @@
+iwd_portfolio.portfolio_page:
+  path: 'portfolio'
+  defaults:
+    _controller: '\Drupal\iwd_portfolio\Controller\PortfolioPage::buildPortfolioPage'
+    _title: 'Portfolio'
+  requirements:
+    _permission: 'access content'

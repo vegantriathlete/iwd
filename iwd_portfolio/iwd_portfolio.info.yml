@@ -1,0 +1,5 @@
+name: Isaacson Web Development Portfolio
+type: module
+description: 'Provides the portofolio functionality.'
+package: IWD
+core: 8.x
