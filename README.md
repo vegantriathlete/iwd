@@ -1,4 +1,4 @@
 # iwd
 Isaacson Web Development custom code
 
-This site is (soon to be) live at https://www.isaacsonwebdevelopment.com
+This site is live at https://www.isaacsonwebdevelopment.com
