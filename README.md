@@ -1,4 +1,4 @@
 # iwd
 Isaacson Web Development custom code
 
-This site is live at https://www.isaacsonwebdevelopment.com
+This Drupal 8 site is live at https://www.isaacsonwebdevelopment.com
