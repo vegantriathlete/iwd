@@ -39,6 +39,7 @@ class PortfolioPage extends ControllerBase {
   public static function create(ContainerInterface $container) {
     return new static(
       $container->get('entity_type.manager')->getStorage('node')
+      // @todo: Inject a service
     );
   }
 
@@ -46,6 +47,11 @@ class PortfolioPage extends ControllerBase {
    * Content callback for the pager_example.page route.
    */
   public function buildPortfolioPage() {
+    // @todo: I think there's way too much logic in this controller.
+    //        I need to create a service that implements an interface.
+    //        Then I'll use the methods that the service provides so that
+    //        this method can do its work.
+    
   // I feel like I'm hacking some of this together. I've placed comments
   // in a couple of specific places below.
 
